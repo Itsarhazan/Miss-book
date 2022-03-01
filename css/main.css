@@ -78,7 +78,6 @@ h1 {
     margin-right: 30px;
     font-size: 20px;
     color: rgb(22, 0, 144);
-    /* text-decoration: none; */
 }
 
 .app-header .a:hover {
@@ -404,4 +403,23 @@ h1 {
 .error {
     background-color: red;
     color: white;
+}
+
+@media (max-width: 1020px) {
+    body {
+        max-width: 700px;
+    }
+    .book-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 760px) {
+    .body {
+        max-width: 100vw;
+    }
+    .app-header {
+        padding: 0 20px;
+    }
 }
